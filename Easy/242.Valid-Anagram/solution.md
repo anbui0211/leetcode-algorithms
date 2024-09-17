@@ -12,7 +12,6 @@ func isAnagram(s string, t string) bool {
 
 	for _, v := range s {
 		mp[v]++
-
 	}
 	for _, v := range t {
 		mp[v]--
